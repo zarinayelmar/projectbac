@@ -1,0 +1,13 @@
+{% extends 'project/base.html' %} 
+
+{% block content %} 
+<ul>
+
+    <div class="modell">
+        <p>{{salt.atu}}</p>
+        <p>{{salt.malimet}}</p>
+        <a href="{%  url 'news-delete' salt.id  %}" class="btn btn-danger">Delete</a>
+        <a href="{% url 'news-update' salt.id %}" class="btn btn-danger">Update</a>
+    </div>
+    </ul>
+    {% endblock %}

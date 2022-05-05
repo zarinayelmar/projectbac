@@ -1,0 +1,18 @@
+{% extends 'project/base.html' %} 
+
+{% block content %} 
+
+<ul>
+        <div class = "model">
+            <h2>{{title}}</h2>
+            <hr>
+        </div>
+        {% for p in urum %}
+        <div class = "modell">
+            <p>{{ p.atu }}</p>
+        </div>
+        {% endfor %}
+    
+</ul>
+
+    {% endblock %}

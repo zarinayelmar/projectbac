@@ -1,0 +1,21 @@
+{% extends 'project/base.html' %} 
+
+{% block content %} 
+
+<ul>
+   
+        <div class="model">
+        <h1 style="text-align:center">Insert</h1>
+        </div>
+        <form method="post">
+            {% csrf_token %}
+            {{form.atu}}<br>
+            {{form.malimet}}<br>
+            <button class="btn btn-success" type="submit">insert</button>
+        </form>
+        
+
+    
+</ul>
+
+    {% endblock %}

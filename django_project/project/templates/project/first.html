@@ -1,0 +1,13 @@
+{% extends 'project/base.html' %} 
+
+{% block content %} 
+<ul>
+    {% for p in salt %}
+    <div class = "modell">
+        <p>{{ p.atu }}</p>
+        <p>{{p.malimet}}</p>
+        <a href="{% url 'news-detail' p.id  %}" class="btn btn-warning">Further</a>
+    </div>
+    {% endfor %}
+    </ul>
+    {% endblock %}

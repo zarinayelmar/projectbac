@@ -1,0 +1,17 @@
+{% extends 'project/base.html' %} 
+
+{% block content %} 
+
+<ul>
+   
+   
+        <form method="post">
+            {% csrf_token %}
+            <button class="btn btn-danger" type="submit" style="font-size: 30px; margin-left: 30%;">Delete</button>
+        </form>
+        
+ 
+    
+</ul>
+
+    {% endblock %}

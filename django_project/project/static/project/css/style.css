@@ -1,0 +1,47 @@
+html, body {
+    font-family: 'Arial';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    color: #444;
+    background-image: url('img/fon.jpg');
+      background-size: 100%;
+  }
+  .head{
+      width: 100%;
+      top:40px;
+      left:250px;
+      }
+  .link{
+      margin-right: 70px;
+      color: rgb(19, 17, 17);
+      font-size: 30px;
+      text-decoration: none;
+  }
+  .model{
+      margin-left: 33%;
+      margin-top: 40px;
+      background-color: rgb(17, 125, 197);
+      width: 30%;
+      text-align: center;
+  }
+  .modell{
+      margin-top: 20px;
+      margin-left: 15%;
+      background-color: rgb(235, 234, 233);
+      width: 60%;
+      text-align: center;
+  }
+  form{
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+.features{
+    margin-left: 20%;
+    margin-top: 40px;
+    background-color: bisque;
+    width: 50%;
+    text-align: center;
+}
